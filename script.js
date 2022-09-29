@@ -6,10 +6,20 @@ const withdraw=()=>{
     }
     else if(inputAmount.value<=myBalance){
         myBalance = myBalance - inputAmount.value
-        display.innerHTML = `succesfully withdrawn ${inputAmount.value} <br> New balance = $ ${myBalance}`
+        display.innerHTML = `succesfully withdrawn $ ${inputAmount.value} <br> New balance = $ ${myBalance}`
     } 
     else{
         display.innerHTML = `Eeyah, Insufficient Balance`
     }
 }
+const deposit=()=>{
+    if (inputAmount.value != ""){
+        myBalance = myBalance + Number(inputAmount.value)
+        display.innerHTML = `succesfully deposited ${inputAmount.value} <br> New balance = $ ${myBalance}`
+    } else{
+        display.innerHTML = `Input an amount to be deposited`
+    }
+}
+
+
 
