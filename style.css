@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-image: url(media/2-7.png);
 }
 #atmBorder{
     width: 50vw;
@@ -32,32 +32,23 @@ body{
 }
 @media only screen and (max-width:800px){
     #atmBorder{
-        width: 50vw;
+        width: 85vw;
         height: 40vh;
         padding: 30px;
-        background-color: goldenrod;
-        border: 10px ridge royalblue;
+        border: 8px ridge royalblue;
         border-top-left-radius: 70px;
         border-bottom-right-radius: 70px;
         display: flex;
     }
     #button{
-        width: 100px;
-        height: 40px;
-        background-color: black;
-        font-style: italic;
-        color: white;
-        border-radius: 5px;
-        margin-bottom: 10px;
+        width: 60px;
+        font-size: x-small;
     }
     #display{
-        width: 25vw;
-        height: 10vh;
+        width: 38vw;
+        height: 17vh;
         padding: 5px;
-        border:3px ridge lightslategray;
         border-radius: 15px;
-        margin: 10px;
-        background-color: white;
-    
+        margin: 7px;
     }
 }
